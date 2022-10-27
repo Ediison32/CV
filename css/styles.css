@@ -1,0 +1,245 @@
+/* empezamoa a cambiar el color al body de la pagina  */
+
+body{
+    background-color:#F5F7FA;
+    font-family:'Montserrat','Arial' ;
+}
+
+/* para cambiar de forma general las listas -- */
+/* li{
+    background-color:yellow;
+} */
+li{
+    line-height: 24px;
+}
+
+/* siempre que invocamos una clase en css tenemosque poner un "
+ . " */
+/* .primer_elemento {
+    background-color: yellow;
+} */
+
+/* Crear margenes 
+    margin- bottom
+            .. 
+
+*/
+
+/* contenedor principal  */
+.contenedor-principal{
+    /* ancho " width"  ,,, "auto"  centra  automaticamente*/
+    width: 1200px;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+/* "displey" nos ayuda alteral nuestro contenido 
+    "flex"
+
+
+*/
+.informacion-general{
+    padding-top: 100px;
+    padding-left: 40px;
+    
+}
+
+
+.descripcion{
+    /* background-color: #a1b4d1; */
+    margin-bottom: 40px ;
+    /* margin-top: 40px; */
+    /* margin-right: 40px; */
+    /* margin-left: 40px; */
+/* margin aplica a los 4 lados */
+    /* margin: 40px;   */
+}
+
+.nombre{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    margin-top: 20px;
+    margin-bottom:25px;
+}
+/* texto de descripcion  */
+.texto-de-descripcion{
+    width: 400px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+
+.titulos-seccion-principal{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 57px;
+    margin-top: 45px;
+}
+
+/* proyectos */
+
+.lista-proyectos{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 17px;
+
+}
+
+.enlaces-proyectos{
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+   
+}
+
+.puntos-pryectoso{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #595959;
+    letter-spacing: 2px;
+}
+/* descripcion profesion  */
+.descripcion-profesion{
+    font-size: 14px;
+    font-weight: 700;
+}
+/* Experiencia laboral */
+
+
+.puesto-empresa{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+.periodo-tiempo{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+
+}
+
+.lista-experiencia{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 17px;
+}
+
+.color-general{
+    color: #FB6D3A;
+}
+
+.puesto-educacion{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    
+}
+
+
+
+
+
+/* Informacion lateral  */
+
+.informacion-lateral{
+    background-color:#1E2939 ;
+    padding-top: 40px;  /* genera un borde al rededor del contedor */
+}
+
+/* titulo lateral contactos */
+
+
+
+.tipo-contactos{  /* titulo de span "cel " and "correo" */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin: right 5px; ;
+    color: white;
+
+}
+.contacto-info{  /* infromacion correo y telefono  */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(177, 177, 177);
+
+}
+
+
+
+.informacion-title{
+    color: white; /* cambiar el color de letra "color" */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin: top 50px;  /* margen superior */
+
+}
+
+/* podemos usar los mismos metodos invocando varias clases */
+
+.contactos, .habilidades{
+    margin-left: 40px;
+
+}
+
+
+/* habilidades tecnicas */
+
+.lista-lateral{
+    padding: 0;
+    padding-left: 19px;
+    color: white;
+
+}
+/*  vamos a seleccionar todos los "li" de nuestra lista  "ul" */
+
+.lista-lateral > li{
+
+    color: #FB6D3A;
+}
+.lista-lateral-elemnto{
+
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+
+
